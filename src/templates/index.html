@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="PWA Lapar Mata"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,300;0,600;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0C0909" />
+  <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="icons/icon-152x152.png">
+  <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <title>Lapar Mata</title>
+</head>
+
+<body>
+  <a href="#main" class="skip-to-content">Skip To Content</a>
+  <header class="header">
+    <div class="header__content">
+      <a href="#home" aria-label="Lapar Mata" class="header__brand">
+        <img src="logo/logos.svg" alt="LaparMata" class="header__logo" />
+      </a>
+      <a href="#nav" class="nav__toggle" aria-label="navigation-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="/" class="nav__link">Beranda</a></li>
+          <li><a href="#/favorite" class="nav__link">Favorit</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/victor-arbiter/" target="_blank" rel="noopener noreferrer"
+              class="nav__link">Tentang Kami</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="blur"></div>
+  <div id="content"></div>
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__copyright">Copyright &COPY; 2021 - Lapar Mata</p>
+    </div>
+  </footer>
+</body>
+
+</html>
